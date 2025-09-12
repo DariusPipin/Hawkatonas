@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist/api",
+    "rootDir": "./src/api"
+  },
+  "include": [
+    "src/api/**/*",
+    "src/types/**/*",
+    "src/services/**/*",
+    "src/utils/**/*",
+    "src/database/**/*"
+  ]
+}
